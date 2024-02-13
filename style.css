@@ -19,7 +19,7 @@ body {
   height: 60%;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(/img/quizbgrd.jpg);
+  background-image: url("/img/quizbgrd.jpg");
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
 }
@@ -49,24 +49,48 @@ body {
   color: teal;
 }
 
+[14:24] Ruth Uwakwe
 @media (max-width: 767px) {
   #calculator {
-    padding: 40px 35px;
-    height: 74%;
+    padding: 20px 30px;
+    height: 50%;
   }
-
+ 
+  #calculator button {
+    padding: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    border: unset;
+    box-shadow: 0 0 15px teal;
+    border-radius: 9px;
+    background-color: white;
+    color: teal;
+  }
+ 
   #calculator input {
     margin-top: 40x;
   }
 }
-
+ 
 @media (min-width: 768px) and (max-width: 1023px) {
   #calculator {
     padding: 40px 35px;
-    height: 74%;
+    height: 50%;
   }
-
+ 
   #calculator input {
     margin-top: 40x;
   }
+ 
+  #calculator button {
+    padding: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    border: unset;
+    box-shadow: 0 0 15px teal;
+    border-radius: 9px;
+    background-color: white;
+    color: teal;
+  }
 }
+ 
