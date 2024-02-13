@@ -48,18 +48,17 @@ body {
   color: teal;
 }
 
-[14:24] Ruth Uwakwe
+
 @media (max-width: 767px) {
   #calculator {
-      max-width: 200px;
-     width: 80%;
+      max-width: 150px;
     padding: 20px 30px;
-    height: 65%;
+    height: 70%;
   }
  
   #calculator button {
-    padding: 15px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
     cursor: pointer;
     border: unset;
     box-shadow: 0 0 15px teal;
