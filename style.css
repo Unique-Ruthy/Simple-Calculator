@@ -52,13 +52,13 @@ body {
 @media (max-width: 767px) {
   #calculator {
       max-width: 250px;
-    padding: 20px 30px;
+    padding: 20px 20px;
     height: 70%;
   }
  
   #calculator button {
     padding: 15px;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     border: unset;
     box-shadow: 0 0 15px teal;
