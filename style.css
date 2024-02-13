@@ -5,7 +5,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
-  border: 1px solid red;
+
 }
 
 #calculator {
@@ -14,7 +14,6 @@ body {
   grid-gap: 8px;
   max-width: 300px;
   margin: auto;
-  border: 1px solid purple;
   width: 100%;
   height: 60%;
   padding: 30px;
@@ -52,13 +51,15 @@ body {
 [14:24] Ruth Uwakwe
 @media (max-width: 767px) {
   #calculator {
+      max-width: 200px;
+     width: 80%;
     padding: 20px 30px;
-    height: 50%;
+    height: 65%;
   }
  
   #calculator button {
     padding: 15px;
-    font-size: 27px;
+    font-size: 25px;
     cursor: pointer;
     border: unset;
     box-shadow: 0 0 15px teal;
@@ -74,6 +75,7 @@ body {
  
 @media (min-width: 768px) and (max-width: 1023px) {
   #calculator {
+    
     padding: 40px 35px;
     height: 50%;
   }
